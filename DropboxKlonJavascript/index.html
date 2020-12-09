@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fileservice</title>
+    <meta name="Fileservice" author="Elian Yildirim" content="Webengineering">
+    <link rel="stylesheet" type="text/css" href="style.css" />  <!-- JS und CSS einbinden und Favicon -->
+    <script language="javascript" type="text/javascript" src="backend.js"></script> 
+    <meta name="viewport" content="initial-scale=1">  <!-- Für Handyansicht -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+</head>
+
+<body>
+
+    <div id="login">   <!-- Abschnitt für Login -->
+        <h1 class="h1">Willkommen - Bitte einloggen.</h1>
+        <form method="post" onsubmit="login(); return false;">
+            <input type="text" id="username" placeholder="Username" required><br />
+            <input type="password" id="password" placeholder="Password" required><br />
+            <button type="submit" id="loginbutton">Login</button>
+        </form>
+    </div>
+
+    <div id="page" style="display: none;">  <!-- Abschnitt für Page, die nach erfolgreichem Login angezeigt wird -->
+        <dialog id="addOrdner" class="dialog">  <!-- Dialog für Hinzufügen eines Ordners, wird durch Button mit ID "add" hinzugefügt -->
+            <form method="post" onsubmit="addOrdner(); return false;">
+                <input type="text" id="ordnername" placeholder="Ordnername"><br />
+                <button type="submit" onclick="document.getElementById('addOrdner').close(); document.getElementById('add').style.display = 'inline';">Hinzufügen</button>
+                <button onclick="document.getElementById('addOrdner').close(); document.getElementById('add').style.display = 'inline'; return false">Abbrechen</button>
+            </form>        
+        </dialog>
+
+        <dialog id="uploadDialog" class="dialog">  <!-- Dialog für Upload von Datei, Backend hierzu funktioniert wegen fehlender Teilimplementierung -->
+            <input id="file" type="file" /><br>
+            <button type="submit" onclick="document.getElementById('uploadDialog').close(); document.getElementById('upload').style.display = 'inline';">Hinzufügen</button>
+            <button onclick="document.getElementById('uploadDialog').close(); document.getElementById('upload').style.display = 'inline'; return false">Abbrechen</button>
+        </dialog>
+        
+        <h1 id="verzeichnis">/</h1> <!-- Hier wird das Verzeichnis dem User angezeigt und durch JS immer wieder je nach Navigierung geändert -->
+
+        <hr />  <!-- Linie für die Struktur -->
+
+
+        <button type="submit" id="logout" onclick="logout();" style="margin-bottom: 0.4%;">Logout</button>  <!-- Logout Button -->
+
+        <div style="text-align: right; margin-bottom: 0.3%;">  <!-- Button, um Ordner hinzuzufügen -->
+            <button type="submit" id="add" onclick="document.getElementById('addOrdner').show(); document.getElementById('add').style.display = 'none'">Ordner hinzufügen</button>
+        </div>
+
+        
+        <div method="post" style="text-align: right; margin-bottom: 0.3%;"> <!-- Button für Upload -->
+            <button type="submit" id="upload" onclick="document.getElementById('uploadDialog').show(); document.getElementById('upload').style.display = 'none';">Upload</button>
+        </div>
+
+        <form method="post" onsubmit="" style="text-align: right;"> <!-- Zurück Button für die History -->
+            <button type="submit" id="back" onclick="window.history.go(-1); return false;">Zurück</button>
+        </form>
+
+        <a href="#" id="top">Top &#8593;</a> <!-- Got to Top Button, scrollt nach oben, wenn man ihn klickt, hilfreich für Handyuser -->     
+
+    </div>
+</body>
+
+</html>
