@@ -1,0 +1,173 @@
+.navi {
+    background:#EF8E1C;
+    opacity: 1;
+}
+.navi:hover {
+    opacity: 1;
+}
+
+.navigation {
+    margin-top: 6%;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #EF8E1C !important;
+    border-color: #EF8E1C !important;
+}
+
+.btn-primary:hover {
+    background-color: #e6820e !important;
+}
+
+.btn-outline-primary {
+    color:#EF8E1C !important;
+    border-color: #EF8E1C !important;
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+    background-color: #e6820e !important;
+}
+
+/* @media only screen and (max-width: 761px),
+(min-device-width: 802px) and (max-device-width: 1020px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+
+    }
+
+    .empty {
+        display: none;
+    }
+
+    th {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        } 
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:nth-of-type(1):before {
+        content: "Sonntag";
+    }
+
+    td:nth-of-type(2):before {
+        content: "Montag";
+    }
+
+    td:nth-of-type(3):before {
+        content: "Dienstag";
+    }
+
+    td:nth-of-type(4):before {
+        content: "Mittwoch";
+    }
+
+    td:nth-of-type(5):before {
+        content: "Donnerstag";
+    }
+
+    td:nth-of-type(6):before {
+        content: "Freitag";
+    }
+
+    td:nth-of-type(7):before {
+        content: "Samstag";
+    }
+
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+@media only screen and (min-device-width: 802px) and (max-device-width: 1020px) {
+    body {
+        width: 495px;
+    }
+}
+
+@media (min-width:800px) {
+    table {
+        table-layout: fixed;
+    }
+
+    td {
+        width: 33%;
+    }
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.today {
+    background: yellow;
+} */ 
+
+.today {
+    background: yellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#zugriffsbutton:hover {
+    fill: black;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navigation {
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .navigation {
+        margin-top: 25%;
+    }
+}
+
+
+@media only screen and (max-width: 430px) {
+    .navigation {
+        margin-top: 35%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    h6 {
+        font-size: .9em;
+    }
+
+    /* th {
+        font-size: .8em;
+    } */
+}
+
