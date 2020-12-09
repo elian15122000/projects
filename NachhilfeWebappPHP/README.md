@@ -9,6 +9,7 @@ Nachhilfelehrer und Nachhilfeschüler können jeweils Accounts auf der Seite ers
 Der Schüler kann in seinem Bereich Nachhilfelehrern durch den Usernamen Anfragen zu schicken, um deren individuell einstellbaren Terminkalender einsehen und Termine eintragen zu können,
 sodass Nachhilfelehrer und -schüler sich nicht mehr schreiben oder telefonieren müssen (sehr zeitaufwändig und nervig). Der Schüler trägt sich also, nachdem der Lehrer seine Anfrage annimmt, selber in die freien Stunden bzw. Tage seines Lehrers / seiner Lehrer ein und sowohl Lehrer als auch Schüler sehen dann auf einen Blick, wann sie welche Nachhilfestunde gemeinsam haben.
 Des Weiteren gibt es eine Chatfunktion, um sich abzusprechen. Der Schüler kann bei der Terminauswahl auch eine Beschreibung eintragen und ebenfalls auch Materialien hochladen. Der Lehrer kann dies sehen und sich auch auf die Stunde vorbereiten bzw. den Wünschen seiner Schüler besser nachkommen. 
+Wichtig für die Schüler außerdem ist die Erstellung von Lerngruppen, welche sich als Gruppe bei dem zuständigen Nachhilfelehrer eintragen und auch chatten können.
 
 ## Folgendes bietet die Seite aktuell:
 Aktuell vorhanden (nicht alle Teile des Frontends sehen gut aus, da Seite mitten im Bau):
