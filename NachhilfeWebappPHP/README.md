@@ -15,7 +15,7 @@ Wichtig für die Schüler außerdem ist die Erstellung von Lerngruppen, welche s
 Aktuell vorhanden (nicht alle Teile des Frontends sehen gut aus, da Seite mitten im Bau):
 <ul>
   <li>Registrierung / Anmeldung als Lehrer und Schüler</li>
-  <li>Terminbuchung</li>
+  <li>Terminbuchung und -einsicht</li>
   <li>Anfragen</li>
   <li>Chat</li>
   <li>Einstellbarer Kalender</li>
