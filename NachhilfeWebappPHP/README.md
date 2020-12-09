@@ -22,4 +22,5 @@ Aktuell vorhanden (nicht alle Teile des Frontends sehen gut aus, da Seite mitten
   <li>Passwort Wiederherstellung</li>
 </ul>
 
-<u>Info:</u> Das Hauptmerkmal war bis jetzt die LoggedIn-Page der Lehrer Accounts, daher sieht die LehrerLoggedIn-Page sehr viel besser als die SchülerLoggedIn-Page aus und bietet mehr Funktionen. 
+<u>Info:</u> Das Hauptmerkmal war bis jetzt die LoggedIn-Page der Lehrer Accounts, daher sieht die LehrerLoggedIn-Page sehr viel besser als die SchülerLoggedIn-Page aus und bietet mehr Funktionen. <br>
+Achtung: KEINE Erlaubnis meinerseits den Code zu übernehmen bzw. zu stehlen!
