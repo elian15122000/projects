@@ -12,7 +12,7 @@ Des Weiteren gibt es eine Chatfunktion, um sich abzusprechen. Der Schüler kann 
 Wichtig für die Schüler außerdem ist die Erstellung von Lerngruppen, welche sich als Gruppe bei dem zuständigen Nachhilfelehrer eintragen und auch chatten können.
 
 ## Folgendes bietet die Seite aktuell:
-Aktuell vorhanden (nicht alle Teile des Frontends sehen gut aus, da Seite mitten im Bau):
+Aktuell vorhanden (nicht alle Teile des Frontends sehen gut aus oder sind responsive, da Seite mitten im Bau):
 <ul>
   <li>Registrierung / Anmeldung als Lehrer und Schüler</li>
   <li>Terminbuchung und -einsicht</li>
