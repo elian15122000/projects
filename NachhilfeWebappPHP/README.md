@@ -1,5 +1,5 @@
 # Nachhilfe Website
-Dies ist eine eigene Idee, an der ich erst kürzlich begonnen habe, zu arbeiten. Es ist also mitten im Bau. Alles wurde von mir selbst entwickelt<br>
+Dies ist eine eigene Idee, an der ich erst kürzlich begonnen habe, zu arbeiten. Es ist also mitten im Bau und daher auch noch etwas unstrukturiert / unübersichtlich. Alles wurde von mir selbst entwickelt<br>
 Das Backend basiert fast komplett auf PHP, aktuell wird MySQL als Datenbank(-anbindung) genutzt. Das Frontend basiert auf HTML, JS, CSS und Bootstrap.<br>
 Hier der Link zum <a href="http://dhbwweb.bplaced.net" target="_blank">aktuellen Stand</a> als Überblick bzw. zu Testzwecken.
 Das Projekt ist etwas größer und ist nicht ansatzweise fertig. Sowohl IT-Sicherheit, Frontend als auch Backend müssen erweitert und verbessert werden.<br>
