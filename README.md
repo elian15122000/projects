@@ -4,4 +4,4 @@ In den Ordnern befinden sich einige meiner Projekte, die ich bis dato entwickelt
 Ich bin zwar bei Weitem (noch) kein IT-Profi oder "Programmiergott", jedoch bin ich sehr interessiert und engagiert und habe in vielen Bereichen auch gute Grundlagen der IT und Programmierung sammeln können. <br>
 Damals, als ich noch Schüler war, habe ich mich sehr viel mit Webdesign und anschließend Webentwicklung beschäftigt, mit dem Beginn meines Studiums dann auch mit Java, Python & Co.<br> Daher sind meine Fähigkeiten aktuell noch in der Webentwicklung bzw. v.a. im Webdesign besser als meine Fähigkeiten in anderen Bereichen.<br>
 Die Projekte, welche hier zu finden sind, sind nur ein Teil der Projekte, die ich entwickelt bzw. an denen ich mitgewirkt habe. Aus datenschutzrechtlichen und Übersichtsgründen belasse ich es jedoch fürs Erste auf den obigen Programmcodes.<br>
-Für Fragen stehe ich jederzeit bereit :)
+Für Fragen stehe ich jederzeit zur Verfügung :)
