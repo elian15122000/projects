@@ -19,7 +19,7 @@ def take_command():
     try:
         with sr.Microphone() as source:
             voice = listener.listen(source)
-            command = listener.recognize_google(voice)
+            command = listener.recognize_google(voice, language="de-DE")
             command = command.lower()
             if 'alexa' in command:
                 command = command.replace('alexa', '')
@@ -32,15 +32,15 @@ def take_command():
 def run_alexa():
     command = take_command()
     print(command)
-    if 'play' and 'youtube' in command:
-        song = command.replace('play', '')
+    if 'spiele' in command:
+        song = command.replace('spiele', '')
         print(song)
-        talk('playing' + song)
+        talk(song + 'wird auf YouTube gespielt')
         pywhatkit.playonyt(song)
 
-    elif 'time' in command:
+    elif 'zeit' in command:
         time = datetime.datetime.now().strftime('%H:%M')
-        talk("Current time is " + time)
+        talk("Es ist " + time)
 
     elif 'date' in command:
         date = datetime.datetime.now()
@@ -52,16 +52,20 @@ def run_alexa():
         print(info)
         talk(info)
 
-    elif 'are you single' in command:
-        talk('I do not know, find it out')
+    elif 'bist du single' in command:
+        talk('Find es heraus, Süßer')
 
-    elif 'joke' in command:
+    elif 'witz' in command:
         joke = pyjokes.get_joke()
         print(joke)
         talk(joke)
 
+    elif 'sei leise' in command:
+        talk('Ich höre jetzt auf, dir zuzuhören.')
+        exit()
+
     else:
-        talk("Please repeat, I did not understand")
+        talk("Bitte wiederhol dich, ich habe dich nicht verstanden")
 
 while True:
     run_alexa()
