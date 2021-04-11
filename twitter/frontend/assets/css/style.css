@@ -1,0 +1,16 @@
+/* .startseite {
+    text-align: center;
+} */
+
+body {
+    overflow-y: hidden;  /* auf mobile Ansicht abändern */
+}
+
+.wallpaper {
+    min-height: 1000px;
+    height: 1000px;
+    overflow-y: hidden;
+    background-image: url("../images/twitter_wallpaper.png");
+}
+
+        
